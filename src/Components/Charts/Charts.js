@@ -18,6 +18,8 @@ const Charts= ({data:{confirmed, recovered, deaths},country}) =>{
 	fetchAPI();
 	},[]);
 
+
+
 	const linechart=
 	(dailydata.length ? (<Line 
 		data= { {
