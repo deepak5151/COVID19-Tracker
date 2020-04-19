@@ -21,6 +21,7 @@ const Cards= ({data:{confirmed,recovered,deaths,lastUpdate},country}) =>{
     );
   }
   
+  
 	return(
 <div className="container">
 <div className="card-deck">
